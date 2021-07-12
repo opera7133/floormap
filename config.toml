@@ -2,7 +2,7 @@ baseURL = "https://tmcitmap.pages.dev"
 languageCode = "ja"
 title = "Floormap"
 theme = "floooor"
-googleAnalytics = ""
+googleAnalytics = "G-7762RNTN7J"
 
 [build]
   writeStats = true
