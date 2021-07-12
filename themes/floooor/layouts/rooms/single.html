@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="mx-auto container max-w-6xl my-5">
+    <div class="mx-3 block col-span-3 lg:col-span-2 px-2 mb-32">
+        <h1 class="text-5xl mb-4">{{.Title}}</h1>
+        <div class="text-2xl py-3 hover:opacity-60 duration-200"><a href="/floor/{{.File.BaseFileName}}">< 戻る</a></div>
+        <div class="py-1 prose lg:prose-xl">{{.Content}}</div>
+    </div>
+</div>
+{{ end }}
