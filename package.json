@@ -1,9 +1,14 @@
 {
-    "name": "TMCIT Floor Map",
+    "name": "TMCITMap",
     "version": "0.0.1",
     "description": "TMCIT Floor Map",
+    "main": "index.js",
     "repository": "https://github.com/opera7133/floormap",
     "license": "MIT",
+    "author": "wamo <ainznino@pm.me>",
+    "scripts": {
+        "start": "hugo --gc"
+    },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^4.0.3",
         "@tailwindcss/typography": "^0.4.1",
