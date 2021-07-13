@@ -3,7 +3,15 @@
     <div class="mx-3 pb-16 col-span-3 lg:col-span-2 px-2">
         <h1 class="title text-5xl mb-4">{{.Title}}</h1>
         <div class="text-2xl py-3 hover:opacity-60 duration-200"><a href="/floor/">< 戻る</a></div>
-        <div class="content py-1"><img src="{{.Params.img}}" id="zoomImg" class="max-h-96"></div>
+        <div class="content py-1">
+            <div class="my-gallery">
+                <figure>
+                    <a href="{{.Params.img}}" data-size="8000x4500">
+                        <img src="{{.Params.img}}" class="max-h-96" alt="{{.Title}}">
+                    </a>
+                </figure>
+            </div>
+        </div>
         <span class="text-2xl block lg:hidden mb-6">タッチで拡大</span><span class="text-2xl hidden lg:block mb-6">クリックで拡大</span>
         <a href="/rooms/{{.File.BaseFileName}}/" class="text-2xl hover:opacity-60 duration-200">部屋一覧 ></a>
     </div>
