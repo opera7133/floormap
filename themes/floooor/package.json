@@ -1,9 +1,9 @@
 {
-    "name": "noknok",
+    "name": "floooor",
     "version": "0.0.1",
-    "description": "Knock, knock!",
+    "description": "Where is that room?",
     "main": "index.js",
-    "repository": "https://github.com/opera7133/noknok",
+    "repository": "https://github.com/opera7133/floormap",
     "author": "wamo <ainznino@pm.me>",
     "license": "MIT",
     "scripts": {
