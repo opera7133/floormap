@@ -2,6 +2,15 @@
 <meta charset="utf-8">
 <title>{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<meta property="og:title" content="産技高専品川フロアマップ" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="東京都立産業技術高専 品川キャンパス フロアマップ" />
+<meta property="og:url" content="https://tmcitmap.pages.dev" />
+<meta property="og:site_name" content="産技高専品川フロアマップ" />
+<meta property="og:image" content="https://tmcitmap.pages.dev/img/ogp.png" />
+<meta property="og:locale" content="ja_JP" />
+
 <link rel="icon" href="{{ "favicon-32x32.png" | relURL }}">
 {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") -}}
 {{- if .Site.IsServer }}
