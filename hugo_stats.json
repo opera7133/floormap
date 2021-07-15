@@ -6,7 +6,6 @@
       "br",
       "button",
       "div",
-      "figcaption",
       "figure",
       "h1",
       "h2",
@@ -38,7 +37,6 @@
       "flex-col",
       "flex-shrink-0",
       "flex-wrap",
-      "gallery",
       "h-14",
       "h-full",
       "h-screen",
@@ -78,7 +76,6 @@
       "pswp__button--arrow--right",
       "pswp__button--close",
       "pswp__button--fs",
-      "pswp__button--share",
       "pswp__button--zoom",
       "pswp__caption",
       "pswp__caption__center",
@@ -112,9 +109,12 @@
     ],
     "ids": [
       "その他",
+      "その他北棟",
       "実験演習室",
+      "工場工房実験室",
       "教室",
-      "研究室"
+      "研究室",
+      "部活動"
     ]
   }
 }
